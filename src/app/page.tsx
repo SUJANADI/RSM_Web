@@ -8,6 +8,8 @@ import Video from "@/components/Video";
 import Teams from "@/components/teams/teams";
 import { Metadata } from "next";
 
+export const dynamic = "force-dynamic";
+
 export const metadata: Metadata = {
   title: "Research Society Manipal Website",
   description: "Home page",

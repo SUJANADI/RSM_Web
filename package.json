@@ -3,33 +3,34 @@
   "version": "2.0.0",
   "private": true,
   "homepage": "https://sujanadi.github.io/RSM_Web",
-"scripts": {
-  "dev": "next dev",
-  "build": "next build",
-  "start": "next start",
-  "lint": "next lint",
-  "predeploy": "npm run build",
-  "deploy": "npm run predeploy && gh-pages -d .next --dotfiles"
-},
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "predeploy": "npm run build",
+    "deploy": "npm run predeploy && gh-pages -d .next --dotfiles"
+  },
   "dependencies": {
     "next": "^14.2.23",
+    "next-themes": "^0.2.1",
+    "nodemailer": "^6.10.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "next-themes": "^0.2.1",
-    "react-modal-video": "^2.0.1",
-    "nodemailer": "^6.10.0"
+    "react-modal-video": "^2.0.1"
   },
   "devDependencies": {
-    "typescript": "^5.3.3",
-    "tailwindcss": "^3.4.1",
+    "@cloudflare/next-on-pages": "^1.13.7",
+    "@types/node": "^20.8.9",
+    "@types/react": "^18.3.18",
     "autoprefixer": "^10.4.17",
-    "postcss": "^8.4.35",
     "eslint": "^8.56.0",
     "eslint-config-next": "^14.1.0",
+    "gh-pages": "^6.3.0",
+    "postcss": "^8.4.35",
     "prettier": "^3.2.5",
     "prettier-plugin-tailwindcss": "^0.5.11",
-    "gh-pages": "^6.3.0",
-    "@types/node": "^20.8.9",
-    "@types/react": "^18.3.18"
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3"
   }
 }
