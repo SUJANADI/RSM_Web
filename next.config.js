@@ -5,10 +5,10 @@ const nextConfig = {
   output: "export",
   trailingSlash: true,
   images: {
-    unoptimized: true, // Required for GitHub Pages
+    unoptimized: true
   },
   basePath: isProd ? "/RSM_Web" : "",
-  assetPrefix: isProd ? "/RSM_Web/" : "",
+  assetPrefix: isProd ? "/RSM_Web/" : ""
 };
 
 module.exports = nextConfig;

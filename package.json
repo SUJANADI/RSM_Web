@@ -3,15 +3,14 @@
   "version": "2.0.0",
   "private": true,
   "homepage": "https://sujanadi.github.io/RSM_Web",
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "export": "next export",
-    "start": "next start",
-    "lint": "next lint",
-    "predeploy": "npm run build && npm run export",
-    "deploy": "npm run predeploy && gh-pages -d out --dotfiles"
-  },
+"scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start",
+  "lint": "next lint",
+  "predeploy": "npm run build",
+  "deploy": "npm run predeploy && gh-pages -d .next --dotfiles"
+},
   "dependencies": {
     "next": "^14.2.23",
     "react": "^18.3.1",
